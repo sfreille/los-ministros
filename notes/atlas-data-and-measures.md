@@ -10,6 +10,8 @@ La auditoría identifica 67 registros presidenciales tras excluir tres duplicado
 
 Se generan 149 intersecciones ministro–presidencia y 99 hallazgos automáticos: tres duplicados, 13 nombres depurados, dos fechas finales recuperadas, 34 diferencias con vínculos heredados, una designación fuera de cobertura, siete pares presidenciales superpuestos, tres pares ministeriales y 36 registros con días sin ministro registrado. Las fechas recuperadas son Emilio Hansen (12/10/1892) y Marco Aurelio Avellaneda (12/10/1904). Los 34 cambios de vínculo no son 34 correcciones históricas independientes. Los solapamientos ministeriales de 1906, 1915 y 1962 requieren investigación; no se desplazan fechas para borrarlos.
 
+Los interinatos ministeriales del inventario se conservan, pero se identifican como tales. Jorge Capitanich fue nombrado ministro de Infraestructura y Vivienda e interino de Economía por el Decreto 11/2001; el Decreto 25/2001 aceptó su renuncia de esos cargos. El anexo de Wikipedia que originó la fila lo abrevia como «Economía», así que el atlas ahora aclara su condición interina en la ficha y enlaza ambas normas. No se lo presenta como ministro titular de Economía.
+
 `source_hashes.json` registra los CSV/HTML originales y los JSON curados. Las fotos se guardan en `data/external/portraits/`, con URL, procedencia y SHA-256 en su manifiesto. **El atlas no incrusta fotos ni las solicita al cargar.** `code/06_fetch_portraits.py` descarga el catálogo `portrait-sources.json` y reutiliza archivos existentes.
 
 ## Intervalos y filtros

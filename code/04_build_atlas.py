@@ -41,6 +41,8 @@ def spanish_dates(s):
 
 def build():
     audit.clear()
+    role_overrides = json.loads((ROOT / 'data/curated/minister-role-overrides.json').read_text(encoding='utf-8'))
+    role_index = {(x['name'], x['start'], x['end']): x for x in role_overrides}
     classification = json.loads((ROOT / 'data/curated/regime-periods.json').read_text(encoding='utf-8'))
     regimes = classification['periods']
     categories = {c['id']: c for c in classification['categories']}
@@ -116,7 +118,13 @@ def build():
             issue('appointment_link', mid, f"{r['ministro']}: {len(matches)} non-acting matches at {start}")
         elif clean_name(r['president_name']) != matches[0]['name']:
             issue('legacy_link_changed', mid, f"{r['ministro']}: {r['president_name']} -> {matches[0]['name']}")
-        ministers.append(dict(id=mid, name=r['ministro'], office=r['ministerio'], start=start, end=end,
+        role = role_index.get((r['ministro'], start, end), {})
+        if role:
+            flags.append('interim ministerial appointment; display clarified from official decrees')
+        ministers.append(dict(id=mid, name=r['ministro'], office=role.get('office_display', r['ministerio']),
+            appointment_status=role.get('status'), role_source_title=role.get('source_title'),
+            role_source_url=role.get('source_url'), role_resignation_url=role.get('resignation_url'),
+            role_note=role.get('note'), start=start, end=end,
             days=days(start, end), ongoing=ongoing, source_president=r['presidente'],
             source_period=r['periodo'], source_row=rownum, flags=flags))
     for i, m in enumerate(ministers):
