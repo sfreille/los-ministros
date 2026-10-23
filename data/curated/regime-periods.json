@@ -1,0 +1,409 @@
+{
+  "version": "2026-10-23",
+  "criteria": "Tres categorías operativas según el acceso electoral: abierta = sufragio amplio, sin proscripción partidaria ni grandes fraudes o supresión del voto documentados en esta codificación; cerrada = elecciones con exclusiones amplias, proscripciones o fraude; de facto/dictatorial = acceso por golpe o ejercicio del poder impuesto por la fuerza. Las sucesiones constitucionales dentro de mandatos electos no pasan a de facto por carecer de una nueva elección. Se conservan los episodios y sus matices. Clasificación analítica revisable, no índice general de derechos o calidad democrática.",
+  "categories": [
+    {
+      "id": "open",
+      "label": "Democracia abierta",
+      "color": "#29788b"
+    },
+    {
+      "id": "closed",
+      "label": "Democracia cerrada",
+      "color": "#a57526"
+    },
+    {
+      "id": "de_facto",
+      "label": "Gobierno de facto / dictatorial",
+      "color": "#a14e40"
+    }
+  ],
+  "sources": {
+    "reform": {
+      "title": "Archivo General de la Nación: Ley Sáenz Peña y apertura política",
+      "url": "https://www.argentina.gob.ar/node/494057"
+    },
+    "yrigoyen": {
+      "title": "Museo Casa Rosada: primer mandato de Yrigoyen",
+      "url": "https://www.casarosada.gob.ar/galeria-de-presidentes/454-hipolito-yrigoyen-i-1916-1922?template=blank"
+    },
+    "fraud": {
+      "title": "Archivo General de la Nación: inestabilidad institucional, 1932–1946",
+      "url": "https://www.argentina.gob.ar/node/509548"
+    },
+    "justo": {
+      "title": "Museo Casa Rosada: Agustín P. Justo",
+      "url": "https://www.casarosada.gob.ar/nuestro-pais/presidentes/47105-agustin-pedro-justo-1932-1938"
+    },
+    "coups": {
+      "title": "Ministerio de Educación: Pensar la dictadura",
+      "url": "https://www.bnm.me.gov.ar/giga1/documentos/EL005099.pdf"
+    },
+    "forties": {
+      "title": "Archivo General de la Nación: gobiernos de la década de 1940",
+      "url": "https://www.argentina.gob.ar/node/508195"
+    },
+    "suffrage": {
+      "title": "Ministerio de Justicia: derechos políticos de las mujeres",
+      "url": "https://www.argentina.gob.ar/noticias/cuando-los-derechos-politicos-de-la-mujer-fueron-ley"
+    },
+    "peron2": {
+      "title": "Museo Casa Rosada: segundo mandato de Perón",
+      "url": "https://www.casarosada.gob.ar/nuestro-pais/presidentes/47101-juan-domingo-peron-ii-1952-1955"
+    },
+    "coup1955": {
+      "title": "Archivo General de la Nación: golpe del 16 de septiembre de 1955",
+      "url": "https://www.argentina.gob.ar/node/30263"
+    },
+    "lonardi": {
+      "title": "Museo Casa Rosada: mandato de Eduardo Lonardi",
+      "url": "https://www.casarosada.gob.ar/informacion/discursos/18-nuestro-pais/galeria-de-presidentes/439-eduardo-lonardi-1955-1955"
+    },
+    "proscription": {
+      "title": "Archivo General de la Nación: régimen militar de 1955–1958",
+      "url": "https://www.argentina.gob.ar/node/512436"
+    },
+    "democracy_history": {
+      "title": "INCaP: La democracia, punto de llegada y punto de inicio",
+      "url": "https://www.argentina.gob.ar/sites/default/files/la_democracia._punto_de_llegada_y_punto_de_inicio.pdf"
+    },
+    "frondizi": {
+      "title": "Museo Casa Rosada: mandato de Arturo Frondizi",
+      "url": "https://www.casarosada.gob.ar/galeria-de-presidentes/437-arturo-frondizi-1958-1962?template=blank"
+    },
+    "guido": {
+      "title": "Museo Casa Rosada: José María Guido y la tutela militar",
+      "url": "https://www.casarosada.gob.ar/informacion/actividad-oficial/36335-jose-maria-guido-1962-1963"
+    },
+    "illia": {
+      "title": "Museo Casa Rosada: mandato de Arturo Illia",
+      "url": "https://www.casarosada.gob.ar/nuestro-pais/presidentes/47098-arturo-umberto-illia-1963-1966"
+    },
+    "campora": {
+      "title": "Museo Casa Rosada: mandato de Héctor Cámpora",
+      "url": "https://www.casarosada.gob.ar/nuestro-pais/presidentes/47097-hector-jose-campora-1973-1973"
+    },
+    "peron_bio": {
+      "title": "Instituto Nacional Juan Domingo Perón: biografía y exclusión de la candidatura en marzo de 1973",
+      "url": "https://jdperon.gob.ar/material-de-consulta/biografia-de-peron/"
+    },
+    "peron3": {
+      "title": "Museo Casa Rosada: tercer mandato de Perón",
+      "url": "https://www.casarosada.gob.ar/nuestro-pais/presidentes/47095-juan-domingo-peron-1973-1974"
+    },
+    "restoration": {
+      "title": "Gobierno nacional: restauración democrática del 10 de diciembre de 1983",
+      "url": "https://www.argentina.gob.ar/noticias/10-de-diciembre-dia-de-la-restauracion-de-la-democracia-0"
+    }
+  },
+  "periods": [
+    {
+      "id": "r01",
+      "start": "1880-10-12",
+      "end": "1916-10-12",
+      "category": "closed",
+      "status": "constitucional",
+      "electorate": "masculino; elección presidencial anterior a la aplicación de la reforma de 1912",
+      "competition": "control oligárquico y reforma en curso",
+      "rationale": "La reforma de 1912 se registra como hito; el cambio de categoría se ubica en la asunción de Yrigoyen en 1916. No se supone que las reglas hayan permanecido idénticas durante todo el período.",
+      "sources": [
+        "reform",
+        "yrigoyen"
+      ],
+      "previous_category": "restricted_order"
+    },
+    {
+      "id": "r02",
+      "start": "1916-10-12",
+      "end": "1930-09-06",
+      "category": "closed",
+      "status": "constitucional",
+      "electorate": "masculino; mujeres y otros grupos excluidos",
+      "competition": "competencia electoral bajo la Ley Sáenz Peña",
+      "rationale": "Mandatos elegidos bajo la reforma de 1912. La competencia electoral no elimina la exclusión de las mujeres ni las restricciones territoriales.",
+      "sources": [
+        "reform",
+        "yrigoyen",
+        "coups"
+      ],
+      "previous_category": "male_electorate"
+    },
+    {
+      "id": "r03",
+      "start": "1930-09-06",
+      "end": "1932-02-20",
+      "category": "de_facto",
+      "status": "de facto",
+      "electorate": "sin elección presidencial de acceso",
+      "competition": "supresión del gobierno constitucional",
+      "rationale": "Gobierno de Uriburu tras el golpe de 1930; finaliza con la asunción de Justo.",
+      "sources": [
+        "coups",
+        "justo"
+      ],
+      "previous_category": "military"
+    },
+    {
+      "id": "r04",
+      "start": "1932-02-20",
+      "end": "1943-06-04",
+      "category": "closed",
+      "status": "formalmente constitucional",
+      "electorate": "masculino",
+      "competition": "fraude y restricciones a la competencia",
+      "rationale": "Clasificación por el origen y contexto electoral de Justo, Ortiz y Castillo. No afirma que todos sus actos o comicios fueran iguales; incluye el intento reformista de Ortiz.",
+      "sources": [
+        "fraud",
+        "justo",
+        "forties"
+      ],
+      "previous_category": "electoral_fraud"
+    },
+    {
+      "id": "r05",
+      "start": "1943-06-04",
+      "end": "1946-06-04",
+      "category": "de_facto",
+      "status": "de facto",
+      "electorate": "sin elección presidencial de acceso",
+      "competition": "gobierno militar",
+      "rationale": "Incluye Rawson, Ramírez y Farrell, más los interinatos del período; la ocupación militar no depende del nombre del titular.",
+      "sources": [
+        "coups",
+        "forties"
+      ],
+      "previous_category": "military"
+    },
+    {
+      "id": "r06",
+      "start": "1946-06-04",
+      "end": "1952-06-04",
+      "category": "closed",
+      "status": "constitucional",
+      "electorate": "mandato elegido por varones; ampliación legal en 1947 y primera votación femenina en 1951",
+      "competition": "gobierno electo; calidad democrática no codificada",
+      "rationale": "El mandato de 1946 deriva de un electorado masculino. La ampliación del sufragio se reconoce como hito; el mandato surgido de la elección de 1951 comienza en 1952.",
+      "sources": [
+        "suffrage",
+        "peron2"
+      ],
+      "previous_category": "male_electorate"
+    },
+    {
+      "id": "r07",
+      "start": "1952-06-04",
+      "end": "1955-09-16",
+      "category": "open",
+      "status": "constitucional",
+      "electorate": "varones y mujeres",
+      "competition": "gobierno electo; libertades y oposición requieren evaluación separada",
+      "rationale": "Sufragio ampliado describe la base electoral, no una certificación de democracia plena. La ventana del golpe se clasifica aparte. Se asigna democracia abierta por la definición electoral adoptada, no como certificación de libertades públicas. La represión, la violencia política y las restricciones a la oposición deben leerse en el contexto; esta asignación es revisable si se documenta supresión electoral que cumpla el criterio.",
+      "sources": [
+        "suffrage",
+        "peron2",
+        "coup1955"
+      ],
+      "previous_category": "broad_elected"
+    },
+    {
+      "id": "r08",
+      "start": "1955-09-16",
+      "end": "1955-09-23",
+      "category": "de_facto",
+      "status": "disputado",
+      "electorate": "no corresponde",
+      "competition": "golpe y autoridad en transición",
+      "rationale": "Se separa la semana entre el inicio del golpe y la asunción formal de Lonardi. La fuente presidencial fecha el fin de Perón el 21 de septiembre; no se fuerza una única titularidad para toda la semana.",
+      "sources": [
+        "coup1955",
+        "peron2",
+        "lonardi"
+      ],
+      "previous_category": "transition"
+    },
+    {
+      "id": "r09",
+      "start": "1955-09-23",
+      "end": "1958-05-01",
+      "category": "de_facto",
+      "status": "de facto",
+      "electorate": "sin elección presidencial de acceso",
+      "competition": "dictadura y proscripción del peronismo",
+      "rationale": "Mandatos de Lonardi y Aramburu hasta la asunción de Frondizi.",
+      "sources": [
+        "lonardi",
+        "proscription",
+        "frondizi"
+      ],
+      "previous_category": "military"
+    },
+    {
+      "id": "r10",
+      "start": "1958-05-01",
+      "end": "1962-03-29",
+      "category": "closed",
+      "status": "constitucional",
+      "electorate": "varones y mujeres",
+      "competition": "peronismo excluido de la elección presidencial de acceso",
+      "rationale": "El gobierno de Frondizi se distingue del gobierno militar anterior y de la tutela militar posterior.",
+      "sources": [
+        "democracy_history",
+        "frondizi"
+      ],
+      "previous_category": "restricted_competition"
+    },
+    {
+      "id": "r11",
+      "start": "1962-03-29",
+      "end": "1963-10-12",
+      "category": "de_facto",
+      "status": "sucesión civil posterior a golpe; tutela militar",
+      "electorate": "sin nueva elección presidencial de acceso",
+      "competition": "Congreso clausurado y elecciones anuladas",
+      "rationale": "Guido conserva la particularidad de la sucesión civil, pero se agrupa en de facto por el derrocamiento de Frondizi, la anulación electoral, el cierre del Congreso y la subordinación militar. No se lo considera un presidente militar.",
+      "sources": [
+        "guido"
+      ],
+      "previous_category": "tutelage"
+    },
+    {
+      "id": "r12",
+      "start": "1963-10-12",
+      "end": "1966-06-28",
+      "category": "closed",
+      "status": "constitucional",
+      "electorate": "varones y mujeres",
+      "competition": "peronismo proscripto en la elección presidencial de acceso",
+      "rationale": "El origen electoral de Illia no equivale a competencia sin exclusiones.",
+      "sources": [
+        "guido",
+        "illia",
+        "democracy_history"
+      ],
+      "previous_category": "restricted_competition"
+    },
+    {
+      "id": "r13",
+      "start": "1966-06-28",
+      "end": "1973-05-25",
+      "category": "de_facto",
+      "status": "de facto",
+      "electorate": "sin elección presidencial de acceso",
+      "competition": "dictadura militar",
+      "rationale": "Incluye las juntas y los gobiernos de Onganía, Levingston y Lanusse, hasta la asunción de Cámpora.",
+      "sources": [
+        "coups",
+        "illia",
+        "campora"
+      ],
+      "previous_category": "military"
+    },
+    {
+      "id": "r14",
+      "start": "1973-05-25",
+      "end": "1973-10-12",
+      "category": "closed",
+      "status": "constitucional",
+      "electorate": "varones y mujeres",
+      "competition": "peronismo habilitado; Perón excluido como candidato en marzo",
+      "rationale": "Se distingue la exclusión personal de Perón de la proscripción partidaria de 1958 y 1963. La categoría cambia con la asunción del mandato surgido de la elección de septiembre.",
+      "sources": [
+        "campora",
+        "peron_bio",
+        "peron3"
+      ],
+      "previous_category": "restricted_competition"
+    },
+    {
+      "id": "r15",
+      "start": "1973-10-12",
+      "end": "1976-03-24",
+      "category": "open",
+      "status": "constitucional",
+      "electorate": "varones y mujeres",
+      "competition": "gobierno electo y sucesión constitucional; violencia y represión no capturadas por la etiqueta electoral",
+      "rationale": "Incluye a Perón y la sucesión de Isabel. No se equipara la ampliación electoral con garantías efectivas de derechos o ausencia de violencia estatal. Se asigna democracia abierta por la definición electoral adoptada, no como certificación de libertades públicas. La represión, la violencia política y las restricciones a la oposición deben leerse en el contexto; esta asignación es revisable si se documenta supresión electoral que cumpla el criterio.",
+      "sources": [
+        "peron3",
+        "coups"
+      ],
+      "previous_category": "broad_elected"
+    },
+    {
+      "id": "r16",
+      "start": "1976-03-24",
+      "end": "1983-12-10",
+      "category": "de_facto",
+      "status": "de facto",
+      "electorate": "sin elección presidencial de acceso",
+      "competition": "dictadura y terrorismo de Estado",
+      "rationale": "Incluye juntas, titulares e interinos del régimen; finaliza con la asunción de Alfonsín.",
+      "sources": [
+        "coups",
+        "restoration"
+      ],
+      "previous_category": "military"
+    },
+    {
+      "id": "r17",
+      "start": "1983-12-10",
+      "end": "2026-10-14",
+      "category": "open",
+      "status": "constitucional",
+      "electorate": "sufragio amplio",
+      "competition": "competencia multipartidaria y sucesiones constitucionales",
+      "rationale": "La categoría identifica el período democrático iniciado en 1983, incluidas las sucesiones de 2001–2002. No es una puntuación constante de calidad democrática. Se observa hasta el corte del archivo.",
+      "sources": [
+        "restoration"
+      ],
+      "previous_category": "democracy"
+    }
+  ],
+  "crosswalk": [
+    {
+      "previous_id": "restricted_order",
+      "previous_label": "Orden electoral restringido",
+      "category": "closed"
+    },
+    {
+      "previous_id": "male_electorate",
+      "previous_label": "Gobiernos electos por varones",
+      "category": "closed"
+    },
+    {
+      "previous_id": "electoral_fraud",
+      "previous_label": "Gobiernos de origen electoral fraudulento",
+      "category": "closed"
+    },
+    {
+      "previous_id": "military",
+      "previous_label": "Dictaduras militares",
+      "category": "de_facto"
+    },
+    {
+      "previous_id": "broad_elected",
+      "previous_label": "Gobiernos electos con sufragio ampliado",
+      "category": "open"
+    },
+    {
+      "previous_id": "restricted_competition",
+      "previous_label": "Gobiernos electos con proscripciones",
+      "category": "closed"
+    },
+    {
+      "previous_id": "tutelage",
+      "previous_label": "Gobierno civil bajo tutela militar",
+      "category": "de_facto"
+    },
+    {
+      "previous_id": "transition",
+      "previous_label": "Transición con autoridad disputada",
+      "category": "de_facto"
+    },
+    {
+      "previous_id": "democracy",
+      "previous_label": "Democracia desde 1983",
+      "category": "open"
+    }
+  ]
+}

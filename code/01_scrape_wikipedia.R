@@ -1,0 +1,15 @@
+library(rvest)
+library(tidyverse)
+library(lubridate)
+
+presidents_page <- read_html("argentina-ministers-viz/data/presidents.html")
+pres_tables <- presidents_page %>% html_elements("table.wikitable")
+
+df_pres_raw <- pres_tables[[12]] %>% html_table()
+cat("Presidents table dimensions:", nrow(df_pres_raw), "x", ncol(df_pres_raw), "\n")
+cat("Column names:\n")
+print(names(df_pres_raw))
+cat("\nFirst 10 rows:\n")
+print(head(df_pres_raw, 10))
+cat("\nLast 5 rows:\n")
+print(tail(df_pres_raw, 5))

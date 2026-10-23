@@ -1,0 +1,19 @@
+# Local and downloaded research material
+data/external/
+data/processed/
+data/*.html
+
+# Generated review captures and legacy exports
+output/atlas-qa/
+output/argentina_ministers_timeline_files/
+output/argentina_ministers_timeline.html
+output/index.html
+output/argentina-ministers-atlas.html
+
+# Python and editor residue
+__pycache__/
+*.py[cod]
+.Rhistory
+.RData
+.DS_Store
+Thumbs.db
